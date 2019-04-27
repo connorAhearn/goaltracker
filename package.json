@@ -1,0 +1,17 @@
+{
+  "name": "goaltracker",
+  "version": "1.0.0",
+  "description": "Goal tracking web application",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Connor Ahearn",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}

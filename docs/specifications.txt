@@ -1,0 +1,25 @@
+-- TITLE --
+GOALTRACKER
+
+-- PURPOSE --
+The following file simulates my ideal functionality for the project.
+
+Ideally the application will have an account feature as well as
+a daily tracker for the progress of the user's goals. The progress
+will correspond to the user's input as to how much they have 
+accomplished over a given time period. 
+
+-- REQUIREMENTS --
+
+1. Google Account Integration
+2. Different time constraints for goals
+3. Different entry types for goal accomplishment
+4. Multiple goals
+5. Display graphs of progress
+
+-- ENVIRONMENT --
+
+1. People don't want to spend a long time entering data
+2. Some people might want to share their progress, some may not
+3. Goals are met after a certain threshold of progress is made
+4. Goals are unique to a specific user, not shared
