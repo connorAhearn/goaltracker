@@ -1,0 +1,24 @@
+extends main.pug
+
+block body
+
+    .row
+        .col-lg-12
+            h1.pb-2.mt-4.mb-2.border-bottom HabTrack
+    
+    .row
+        .col-lg-12
+            p Welcome #{username}, here is your progress so far:
+
+    .row
+        .col-lg-12
+            h1 #{progress}
+
+    .row
+        .col-lg-12
+            p Have you made progress today?
+
+    .row
+        .col-lg-12
+            form(action='/data/', method='post')
+                input(type='submit', name='yes', value='Yes')
